@@ -111,8 +111,14 @@ header .logo-argProg img{
     padding: 19em;
     object-fit: cover;
     margin-bottom: 5rem;
-    
+   
 } 
+header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /*-------------------seccion portada / banner -------------------*/
 .inicio{

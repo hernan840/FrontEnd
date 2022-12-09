@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/708a30517a.js" crossorigin="anonymous"></script>
     <!-- linkear la hoja css -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/stylesLogin.css">
     <title>Porfolio</title>
 </head>
 
@@ -38,11 +39,18 @@
             </ul>
         </nav>
         <div class="logo-argProg ">
-            <!--   <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a> -->
             <img src="/assets/img/logo-argProg.png" alt="">
+
+            <div class="botnes-login">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    <i class="fa-solid fa-user"></i> Entrar
+                </button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logout">
+                    <i class="fa-solid fa-user-slash"></i> Salir
+                </button>
+
+            </div>
         </div>
 
     </header>
@@ -264,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="skills">
                     <h3>Blandas</h3>
                     <div class="skill-box">
@@ -292,7 +300,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="skills">
                     <h3>Idiomas</h3>
                     <div class="skill-box">
@@ -376,7 +384,7 @@
                         <a href="#" class="btn">Ver proyecto</a>
                     </div>
                 </div>
-              
+
             </div>
 
 
@@ -395,6 +403,37 @@
     <script src="/assets/js/particles.min.js"></script>
     <script src="/assets/js/particlesjs-config.json"></script>
 
+
+
+    <!-- ------ MODALES ------ -->
+
+      <!-- Modal login -->
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel">Inisiar secion</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label for="txtemail" class="form-label">e-mail</label>
+                        <input type="email" class="form-control" id="txtemail" placeholder="Ingrese e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtpass" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="txtpass" placeholder="Ingrese Contraseña" >
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                    <button type="button" class="btn btn-primary">Ingresar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- JavaScript Bundle with Popper, se coloca antes que cierre body se copia de lapagina de boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

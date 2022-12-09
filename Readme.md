@@ -16,3 +16,5 @@ A: added/ agregado
 4* desarrollo de la parte esperiencia y educacion
 5* desarrollo de habilidades
 6* desarrollo de las tarjetas de proyectos
+
+## Agregar botones y ventana modales
