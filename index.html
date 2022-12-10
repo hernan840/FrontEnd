@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/708a30517a.js" crossorigin="anonymous"></script>
     <!-- linkear la hoja css -->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/stylesLogin.css">
+    <link rel="stylesheet" href="assets/css/stylesModal.css">
     <title>Porfolio</title>
 </head>
 
@@ -43,7 +43,7 @@
 
             <div class="botnes-login">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLogin">
                     <i class="fa-solid fa-user"></i> Entrar
                 </button>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logout">
@@ -60,7 +60,7 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="/assets/img/yo_portada.jpg" alt="">
+                <img src="/assets/img/yo_portada.jpg" alt="" style="margin-top: 5rem;">
             </div>
             <h1>Hernan Flores</h1>
             <h2>Developer</h2>
@@ -399,42 +399,47 @@
 
 
 
-    <!-- js descargado para particulas en movimiento -->
-    <script src="/assets/js/particles.min.js"></script>
-    <script src="/assets/js/particlesjs-config.json"></script>
-
-
-
     <!-- ------ MODALES ------ -->
 
-      <!-- Modal login -->
-      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal login -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content contet-modal-login">
                 <div class="modal-header">
-                    <h1 class="modal-title" id="exampleModalLabel">Inisiar secion</h1>
+                    <h1 class="modal-titlel-login" id="exampleModalLabel">Inisiar secion</h1>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
 
-                    <div class="mb-3">
-                        <label for="txtemail" class="form-label">e-mail</label>
-                        <input type="email" class="form-control" id="txtemail" placeholder="Ingrese e-mail">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtpass" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="txtpass" placeholder="Ingrese Contraseña" >
-                    </div>
+                    <form class="form">
+                        <input type="text" required>
+                        <label class="lbl-nombre">
+                            <span class="text-nomb">Usuario</span>
+                        </label>
+                    </form>
+                    <form class="form">
+                        <input type="password" required>
+                        <label class="lbl-password">
+                            <span class="text-pass">Contraseña</span>
+                        </label>
+                    </form>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer-login">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
                     <button type="button" class="btn btn-primary">Ingresar</button>
                 </div>
             </div>
         </div>
     </div>
+    <!--fin Modal login -->
 
+
+
+
+    <!-- js descargado para particulas en movimiento -->
+    <script src="/assets/js/particles.min.js"></script>
+    <script src="/assets/js/particlesjs-config.json"></script>
     <!-- JavaScript Bundle with Popper, se coloca antes que cierre body se copia de lapagina de boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
