@@ -21,10 +21,15 @@
     <div id="particles-js"></div>
     <!-- seccion heater  -->
     <header>
-        <div class="usuario ">
+        <div class="usuario">
             <img src="/assets/img/Hernan.jpg" alt="">
             <h3 class="nombre">Hernan Flores</h3>
             <p class="post">Full Stack <br> Developer Jr</p>
+
+            <button type="button" class="btn btn-primary btn-editar" data-bs-toggle="modal" data-bs-target="#modalHead">
+                <i class="fa-solid fa-pencil"></i>
+            </button>
+
         </div>
 
         <nav class="navbar text-center">
@@ -400,7 +405,6 @@
 
 
     <!-- ------ MODALES ------ -->
-
     <!-- Modal login -->
     <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -433,6 +437,41 @@
         </div>
     </div>
     <!--fin Modal login -->
+
+    <!-- Modal informacion head-->
+    <div class="modal fade" id="modalHead" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content contet-modal-head">
+                <div class="modal-header">
+                    <h1 class="modal-title-head" id="exampleModalLabel">Editar Informacion Perfil</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <label for="file">Subir Foto de Usuario</label>
+                        <input type="file" id="file-foto-usuario-head">
+                    </p>
+                    <p>
+                        <label for="input">Nombre y Apellido</label>
+                        <input type="text" id="input-nombre-usuario-head" placeholder="Nombre y Apellido">
+                    </p>
+                    <p>
+                        <label for="input">Titulo</label>
+                        <input type="text" id="input-head-titulo" placeholder="Titulo">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Canselar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin modal indormacion head  -->
+
+  >
+
 
 
 
