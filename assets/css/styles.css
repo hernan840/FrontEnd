@@ -307,6 +307,7 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
    padding:1rem 0;
    padding-left: 3rem;
 }
+
 .experiencias .contenido-experiencias .box-container-experiencias .box-experiencia{
    width: 300rem;
    height: 50rem;
@@ -315,6 +316,7 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
    border-left: .9rem solid rgb(33, 15, 226);
    border-right: .9rem solid rgb(33, 15, 226);
    position: relative;
+
    /* box-shadow: 8px 0px 15px  #2904cc; */
 
    box-shadow: 5px 0 10px  #2b7ac9; /*sombra*/
@@ -323,6 +325,7 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
    overflow: auto;                /*ocultar barra scrol*/
    scrollbar-width: none;
    margin-left: 25rem;
+   z-index: 100;
 }
 .experiencias .contenido-experiencias .box-container-experiencias .box-experiencia::-webkit-scrollbar{
     width: 0;
