@@ -226,6 +226,9 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
 
     overflow: auto;                /*ocultar barra scrol*/
     scrollbar-width: none;
+    
+    /* display: flex; */
+    z-index: 100;
 
 }
 .sobre_mi .contenido-sobremi::-webkit-scrollbar{
@@ -234,18 +237,17 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
 
 
 .sobre_mi .contenido-sobremi img{
-    margin-top: 20px;
+    margin-top: 25rem;
     border: 5px solid #924a2d;
     display: block;
-    width: 10%;
-    margin: auto;
+    /* margin: auto; */
     border-radius: 50%;
     display: flex;
     align-items: flex-end;
-   
+    /* top: 20rem;   */
     float: right;
-    width: 35%;
-    height: auto;
+    width: 25%;
+    /* height: 25%; */
 }
 .sobre_mi .contenido-sobremi .contenedor-img{
     margin-top: 40px;
@@ -263,6 +265,7 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
 
 .sobre_mi .contenido-sobremi .descripcion p{
     margin-top: 40px;
+    margin-left: 8rem;
     font-size: 20px;
     text-align: left;
 
