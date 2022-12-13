@@ -480,3 +480,64 @@
     width: 102rem;
     
 }
+/* --------inicio modal  habilidades skill---------- */
+.contenedor-btn-edit-borrar-skill{
+    width: 8rem;
+    height: 3rem;
+    position: absolute;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    /* margin-right:  -90rem;    */
+}
+.btn-editar-skill{
+    /* border-radius: 100px; */
+    background-color: rgba(0, 0, 0, 0.479);
+    box-shadow: 5px 2px 1px 2px rgba(0, 0, 255, .2);
+    width: 8rem;
+    height: 8rem;
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    left: 90px;
+}
+.btn-borrar-skill{
+    /* border-radius: 100px; */
+    background-color: rgba(0, 0, 0, 0.479);
+    box-shadow: 5px 2px 1px 2px rgba(0, 0, 255, .2);
+    width: 8rem;
+    height: 8rem;
+    color: #fff;
+    position: absolute;
+    margin-left: 10rem;
+    top: -20px;
+    left: 90px;
+}
+.contet-modal-skill{
+    margin-top: 50rem;
+    background-color: rgba(27, 21, 32, 0.794);
+    background: rgba(11, 11, 11, 0.6);  /* transparente blureado */
+    backdrop-filter: blur(8px);
+    box-shadow: 10px 0 10px rgba(9, 9, 9, 50%);
+    width: 102rem;
+    font-size: 15px;
+}
+.modal-title-skill{
+    color: #fff;
+    margin-left: 35rem;
+    font-size: 20px;
+}
+#input-nombre-skill{
+    background-color: rgba(207, 207, 222, 0.947);
+    margin-left: 3rem;
+    margin-top: 3rem;
+    width: 67rem;
+    border-radius: 8px;
+}
+#input-progreso-skill{
+    background-color: rgba(207, 207, 222, 0.947);
+    margin-left: 5.4rem;
+    margin-top: 3rem;
+    width: 67rem;
+    border-radius: 8px;
+}
