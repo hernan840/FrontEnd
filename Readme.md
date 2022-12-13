@@ -20,5 +20,6 @@ A: added/ agregado
 ## Agregar botones y ventana modales
 ### botonlogin y modal login
 ### boton editar y modal de editar informacion de portada
-### boton editar y modal de editar informacion sobre mi
-### boton editar y modal de editar informacion experiencia laboral
+### boton editar/borrar y modal de editar informacion sobre mi
+### boton editar/borrar y modal de editar informacion experiencia laboral
+### boton editar/borrar y modal de editar informacion educacion

@@ -315,6 +315,7 @@
     /* height: 1rem; */
     position: absolute;
     top: 10px;
+    margin-top: 6rem;
     right: 170px;
     display: flex;
     flex-direction: column;
@@ -393,4 +394,89 @@
     margin-bottom: 3rem;
     border-radius: 8px;
     width: 102rem;
+}
+
+/* --------inicio modal  educacion---------- */
+.contenedor-btn-edit-borrar-educacion{
+    width: 8rem;
+    height: 1rem;
+    position: absolute;
+    top: 30px;
+    right: 140px;
+    display: flex;
+    flex-direction: column;
+    /* margin-right:  -90rem;    */
+}
+.btn-editar-educacion {
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.479);
+    box-shadow: 5px 2px 1px 2px rgba(0, 0, 255, .2);
+    width: 8rem;
+    height: 8rem;
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    left: 90px;
+}
+.btn-borrar-educacion{
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.479);
+    box-shadow: 5px 2px 1px 2px rgba(0, 0, 255, .2);
+    width: 8rem;
+    height: 8rem;
+    color: #fff;
+    position: absolute;
+    margin-left: 10rem;
+    top: -20px;
+    left: 90px;
+}
+
+.contet-modal-educacion{
+    margin-top: 50rem;
+    background-color: rgba(27, 21, 32, 0.794);
+    background: rgba(11, 11, 11, 0.6);  /* transparente blureado */
+    backdrop-filter: blur(8px);
+    box-shadow: 10px 0 10px rgba(9, 9, 9, 50%);
+    width: 160rem;
+    font-size: 15px;
+}
+.modal-title-educacion{
+    color: #fff;
+    margin-left: 35rem;
+    font-size: 20px;
+}
+#input-nombre-educacion{
+    background-color: rgba(207, 207, 222, 0.947);
+    margin-left: 35rem;
+    margin-top: 3rem;
+    width: 102rem;
+    border-radius: 8px;
+}
+#input-nombre-titulo{
+    background-color: rgba(207, 207, 222, 0.947);
+    margin-left: 39.5rem;
+    margin-top: 3rem;
+    width: 102rem;
+    border-radius: 8px;
+}
+#date-fecha-educacion{
+    background-color: rgba(207, 207, 222, 0.947);
+    margin-left: 10rem;
+    margin-top: 3rem;
+    width: 102rem;
+    border-radius: 8px;
+}
+#file-logo-educacion{
+    background-color: rgba(130, 130, 138, 0.642);
+    margin-left: 0rem;
+    margin-top: 3rem;
+}
+
+#textarea-descripcion-educacion{
+    background-color: rgba(207, 207, 222, 0.947);
+    margin-left: 30rem;
+    margin-top: 3rem;
+    border-radius: 8px;
+    width: 102rem;
+    
 }

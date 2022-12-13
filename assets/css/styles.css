@@ -360,19 +360,6 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
    padding: 1rem 0;
 }
 
-.experiencias .contenido-experiencias .box-container-experiencias .box-experiencia i{
-   position: absolute;
-   top:-1.5rem; left:-2.5rem;
-   height:10rem;
-   width: 10rem;
-   border-radius: 50%;
-   line-height: 9rem;
-   font-size: 5rem;
-   color:#fff;
-   background:rgb(33, 15, 226);
-}
-
-
 /*------------------- educacion -------------------*/
 .educacion{
      height: 100vh;
@@ -418,6 +405,11 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
     position: relative;
     box-shadow: 8px 0px 15px  #2b7ac9;
     border-radius: 10px;
+    overflow: auto;                /*ocultar barra scrol*/
+    scrollbar-width: none;
+}
+.educacion .contenido-educacion .box-container-educacion .box::-webkit-scrollbar{
+    width: 0;
 }
 .educacion .contenido-educacion .box-container-educacion .box img{
     display: flex;
@@ -454,7 +446,7 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
     padding-top: 9rem;
 }
 
-.educacion .contenido-educacion .box-container-educacion .box i{
+.educacion .contenido-educacion .box-container-educacion .box .fas{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:10rem;
