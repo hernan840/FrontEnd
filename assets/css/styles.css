@@ -601,6 +601,8 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
 	transition: all 400ms ease-out;
 	cursor: default;
     
+    z-index: 100;
+    position: relative;
 
 }
 

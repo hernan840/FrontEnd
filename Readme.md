@@ -24,3 +24,4 @@ A: added/ agregado
 ### boton editar/borrar y modal de editar informacion experiencia laboral
 ### boton editar/borrar y modal de editar informacion educacion
 ### boton editar/borrar y modal de editar informacion habilidades/skill
+### boton editar/borrar y modal de editar informacion proyecto
