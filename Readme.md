@@ -25,3 +25,4 @@ A: added/ agregado
 ### boton editar/borrar y modal de editar informacion educacion
 ### boton editar/borrar y modal de editar informacion habilidades/skill
 ### boton editar/borrar y modal de editar informacion proyecto
+### agredado de funcion drag drop, script copiado de la pagina https://cdnjs.com/libraries/Sortable en head y relizacion de script individuales al final 
