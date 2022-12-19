@@ -133,7 +133,7 @@
 }
 .modal-title-head{
     color: #fff;
-    margin-left: 46rem;
+    margin-left: 59rem;
     font-size: 20px;
 }
 #file-foto-usuario-head{
@@ -219,7 +219,7 @@
  }
  #input-nombre{
      background-color: rgba(207, 207, 222, 0.947);
-     margin-left: 22rem;
+     margin-left: 20rem;
      margin-top: 3rem;
      width: 102rem;
      border-radius: 8px;
@@ -281,7 +281,7 @@
 }
 .modal-title-sobremi{
     color: #fff;
-    margin-left: 50rem;
+    margin-left: 59rem;
     font-size: 20px;
 }
 #input-nombre{
@@ -344,6 +344,10 @@
     position: absolute;
     margin-left: 40rem;
 }
+.btn-nueva-experiencia{
+    margin-left: auto;
+    width: 40rem;
+}
 
 .contet-modal-experiencia{
     margin-top: 50rem;
@@ -356,7 +360,7 @@
 }
 .modal-title-experiencia{
     color: #fff;
-    margin-left: 40rem;
+    margin-left: 50rem;
     font-size: 20px;
 }
 #input-nombre-experiencia{
@@ -389,7 +393,7 @@
 
 #textarea-descripcion-experiencia{
     background-color: rgba(207, 207, 222, 0.947);
-    margin-left: 18rem;
+    margin-left: 15rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     border-radius: 8px;
@@ -430,7 +434,10 @@
     top: -20px;
     left: 90px;
 }
-
+.btn-nueva-educacion{
+    margin-left: auto;
+    width: 40rem;
+}
 .contet-modal-educacion{
     margin-top: 50rem;
     background-color: rgba(27, 21, 32, 0.794);
@@ -442,7 +449,7 @@
 }
 .modal-title-educacion{
     color: #fff;
-    margin-left: 35rem;
+    margin-left: 45rem;
     font-size: 20px;
 }
 #input-nombre-educacion{
@@ -461,7 +468,7 @@
 }
 #date-fecha-educacion{
     background-color: rgba(207, 207, 222, 0.947);
-    margin-left: 10rem;
+    margin-left: 7rem;
     margin-top: 3rem;
     width: 102rem;
     border-radius: 8px;
@@ -474,7 +481,7 @@
 
 #textarea-descripcion-educacion{
     background-color: rgba(207, 207, 222, 0.947);
-    margin-left: 30rem;
+    margin-left: 28rem;
     margin-top: 3rem;
     border-radius: 8px;
     width: 102rem;
@@ -512,6 +519,10 @@
     margin-left: 10rem;
     top: -20px;
     left: 90px;
+}
+.btn-nueva-habilidad{
+    margin-left: auto;
+    width: 40rem;
 }
 .contet-modal-skill{
     margin-top: 50rem;

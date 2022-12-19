@@ -295,9 +295,14 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
 .experiencias .contenido-experiencias::-webkit-scrollbar{
    width: 0;
 }
+.experiencias .contenido-experiencias .contenedor-nomb-btnnuevo{
+    display: grid;
+    place-items: center;
+}
 .experiencias .contenido-experiencias h1{
    font-size: 9rem;
    text-decoration: underline overline #FF3028;
+
 }
 .experiencias .contenido-experiencias .box-container-experiencias{
    display: flex;
@@ -384,6 +389,11 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
 .educacion .contenido-educacion::-webkit-scrollbar{
     width: 0;
 }
+.educacion .contenido-educacion .contenedor-nomb-btnnuevaedu{
+    display: grid;
+    place-items: center;
+}
+
 .educacion .contenido-educacion h1{
     font-size: 9rem;
     text-decoration: underline overline #FF3028;
@@ -483,6 +493,10 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
 .habilidades .contenido-habilidades::-webkit-scrollbar{
    width: 0;
 }
+.habilidades .contenido-habilidades .contenedor-nomb-nuevahabilidad{
+    display: grid;
+    place-items: center;
+}
 .habilidades .contenido-habilidades h2{
    font-size: 7rem;
    text-decoration: underline overline #FF3028;
@@ -573,6 +587,10 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
 }
 .proyectos .contenido-proyectos::-webkit-scrollbar{
    width: 0;
+}
+.proyectos .contenido-proyectos .contenedor-nomb-btnnuevoproyecto{
+    display: grid;
+    place-items: center;
 }
 .proyectos .contenido-proyectos h2{
    font-size: 7rem;

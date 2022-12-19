@@ -41,9 +41,9 @@
         <nav class="navbar text-center">
             <ul>
                 <li><a href="#inicio">Portada</a></li>
-                <li><a href="#sobre_mi">Sobre mi</a></li>
+                <li><a href="#sobre_mi">Sobre mí</a></li>
                 <li><a href="#experiencias">Experiencias</a></li>
-                <li><a href="#educacion">Educacion</a></li>
+                <li><a href="#educacion">Educación</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
 
@@ -54,10 +54,12 @@
 
             <div class="botnes-login">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLogin">
+                <button type="button" class="btn btn-primary btm-login" data-bs-toggle="modal"
+                    data-bs-target="#modalLogin">
                     <i class="fa-solid fa-user"></i> Entrar
                 </button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logout">
+                <button type="button" class="btn btn-primary btm-logout" data-bs-toggle="modal"
+                    data-bs-target="#logout">
                     <i class="fa-solid fa-user-slash"></i> Salir
                 </button>
 
@@ -80,6 +82,7 @@
                 <a href="#"><i class="fa-brands fa-github"></i></a>
                 <a href="#"><i class="fa-solid fa-envelope"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="""><i class="fa-solid fa-plus"></i></a>
             </div>
             <button type="button" class="btn btn-primary btn-editar-portada" data-bs-toggle="modal"
                 data-bs-target="#modalPortada">
@@ -127,7 +130,14 @@
     <!-- inicio seccion experiencias -->
     <section id="experiencias" class="experiencias">
         <div class="contenido-experiencias">
-            <h1> Experiencia Laborales </h1>
+            <div class="contenedor-nomb-btnnuevo">
+                <h1> Experiencia Laborales </h1>
+                <button type="button" class="btn btn-primary btn-nueva-experiencia" data-bs-toggle="modal"
+                    data-bs-target="#modalNuevaExperiencia">
+                    <i class="fa-solid fa-plus"></i> Nueva Experiencia
+                </button>
+
+            </div>
             <div class="box-container-experiencias">
                 <div class="box-experiencia">
                     <img src="/assets/img/ENET 2.png" alt="">
@@ -201,14 +211,7 @@
                         </button>
                     </div>
                 </div>
-
-
-
-
             </div>
-
-
-
         </div>
     </section>
     <!-- fin seccion experiencias -->
@@ -218,7 +221,14 @@
     <!-- inicio seccion educacion -->
     <section id="educacion" class="educacion">
         <div class="contenido-educacion">
-            <h1> Educación </h1>
+            <div class="contenedor-nomb-btnnuevaedu">
+                <h1> Educación </h1>
+                <button type="button" class="btn btn-primary btn-nueva-educacion" data-bs-toggle="modal"
+                    data-bs-target="#modalNuevaEducacion">
+                    <i class="fa-solid fa-plus"></i> Nueva Educacion
+                </button>
+
+            </div>
             <div class="box-container-educacion">
 
                 <div class="box">
@@ -350,7 +360,14 @@
     <!-- inicio seccion habilidades -->
     <section id="habilidades" class="habilidades">
         <div class="contenido-habilidades">
-            <h2> Habilidades </h2>
+            <div class="contenedor-nomb-nuevahabilidad">
+                <h2> Habilidades </h2>
+                <button type="button" class="btn btn-primary btn-nueva-habilidad" data-bs-toggle="modal"
+                    data-bs-target="#modalNuevoSkil">
+                    <i class="fa-solid fa-plus"></i> Nuevo Skill
+                </button>
+
+            </div>
             <div class="box-container-skills">
 
                 <div class="skills">
@@ -545,7 +562,14 @@
     <!-- inicio seccio proyectos -->
     <section id="proyectos" class="proyectos">
         <div class="contenido-proyectos">
-            <h2> Proyectos <br></h2>
+            <div class="contenedor-nomb-btnnuevoproyecto">
+                <h2> Proyectos</h2>
+                <button type="button" class="btn btn-primary btn-nueva-experiencia" data-bs-toggle="modal"
+                    data-bs-target="#modalNuevoProyecto">
+                    <i class="fa-solid fa-plus"></i> Nuevo Proyecto
+                </button>
+
+            </div>
             <div class="box-container-card">
                 <div class="card">
                     <img src="/assets/img/portafolio.PNG" class="card-img-top" alt="...">
@@ -654,7 +678,7 @@
         <div class="modal-dialog">
             <div class="modal-content contet-modal-login">
                 <div class="modal-header">
-                    <h1 class="modal-titlel-login" id="exampleModalLabel">Inisiar secion</h1>
+                    <h1 class="modal-titlel-login" id="exampleModalLabel">Iniciar sesión</h1>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -687,7 +711,7 @@
         <div class="modal-dialog">
             <div class="modal-content contet-modal-head">
                 <div class="modal-header">
-                    <h1 class="modal-title-head" id="exampleModalLabel">Editar Informacion Perfil</h1>
+                    <h1 class="modal-title-head" id="exampleModalLabel">Información Perfil</h1>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -719,7 +743,7 @@
         <div class="modal-dialog">
             <div class="modal-content contet-modal-portada">
                 <div class="modal-header">
-                    <h1 class="modal-title-portada id=" exampleModalLabel">Editar Informacion de Portada</h1>
+                    <h1 class="modal-title-portada id=" exampleModalLabel">Información de Portada/Banner</h1>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -755,7 +779,7 @@
         <div class="modal-dialog">
             <div class="modal-content contet-modal-sobremi">
                 <div class="modal-header">
-                    <h1 class="modal-title-sobremi" id="exampleModalLabel">Editar Informacion Sobre Mi</h1>
+                    <h1 class="modal-title-sobremi" id="exampleModalLabel">Información Sobre Mi</h1>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -769,7 +793,7 @@
                         <input type="file" id="file-perfil">
                     </p>
                     <p>
-                        <label for="textarea">Descrpicion</label>
+                        <label for="textarea">Descripción</label>
                         <textarea id="textarea-descripcion" rows="3" style="height: 110px;"></textarea>
                     </p>
 
@@ -789,7 +813,7 @@
         <div class="modal-dialog">
             <div class="modal-content contet-modal-experiencia">
                 <div class="modal-header">
-                    <h1 class="modal-title-experiencia" id="exampleModalLabel">Editar Experiencia Laboral</h1>
+                    <h1 class="modal-title-experiencia" id="exampleModalLabel">Experiencia Laboral</h1>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -812,7 +836,7 @@
                         <input type="file" id="file-logo-experiencia">
                     </p>
                     <p>
-                        <label for="textarea">Descricion</label>
+                        <label for="textarea">Descripción</label>
                         <textarea id="textarea-descripcion-experiencia" rows="3" style="height: 110px;"></textarea>
                     </p>
 
@@ -826,13 +850,56 @@
         </div>
     </div>
     <!-- fin modal para  editar experiencia  -->
+    <!-- Modal nueva experiencia-->
+    <div class="modal fade" id="modalNuevaExperiencia" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content contet-modal-experiencia">
+                <div class="modal-header">
+                    <h1 class="modal-title-experiencia" id="exampleModalLabel">Experiencia Laboral</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <label for="input">Nombre del Lugar</label>
+                        <input type="text" id="input-nombre-experiencia" placeholder="Nombre">
+                    </p>
+                    <p>
+                        <label for="input">Puesto</label>
+                        <input type="text" id="input-nombre-puesto-experiencia" placeholder="Cargo ">
+                    </p>
+                    <p>
+                        <label for="date">Fecha</label>
+                        <input type="date" id="date-fecha-experiencia">
+                    </p>
+
+                    <p>
+                        <label for="file">Subir logo</label>
+                        <input type="file" id="file-logo-experiencia">
+                    </p>
+                    <p>
+                        <label for="textarea">Descripción</label>
+                        <textarea id="textarea-descripcion-experiencia" rows="3" style="height: 110px;"></textarea>
+                    </p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Canselar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin modal para  nueva experiencia  -->
 
     <!-- Modal educacion-->
     <div class="modal fade" id="modalEducacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content contet-modal-educacion">
                 <div class="modal-header">
-                    <h1 class="modal-title-educacion" id="exampleModalLabel">Editar Informacion de Educacion</h1>
+                    <h1 class="modal-title-educacion" id="exampleModalLabel">Información de Educacion</h1>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -842,20 +909,20 @@
                         <input type="text" id="input-nombre-educacion" placeholder="Institucion">
                     </p>
                     <p>
-                        <label for="input">Titulo</label>
+                        <label for="input">Título</label>
                         <input type="text" id="input-nombre-titulo" placeholder="Titulo ">
                     </p>
                     <p>
-                        <label for="date">Fecha de Relizacion</label>
+                        <label for="date">Fecha de Realización</label>
                         <input type="date" id="date-fecha-educacion">
                     </p>
 
                     <p>
-                        <label for="file">Subir logo de Institucion</label>
+                        <label for="file">Subir logo de Institución</label>
                         <input type="file" id="file-logo-educacion">
                     </p>
                     <p>
-                        <label for="textarea">Descricion</label>
+                        <label for="textarea">Descripción</label>
                         <textarea id="textarea-descripcion-educacion" rows="3" style="height: 110px;"></textarea>
                     </p>
 
@@ -869,6 +936,51 @@
         </div>
     </div>
     <!-- fin modal para  editar educacion  -->
+    <!-- Modal nueva educacion-->
+    <div class="modal fade" id="modalNuevaEducacion" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content contet-modal-educacion">
+                <div class="modal-header">
+                    <h1 class="modal-title-educacion" id="exampleModalLabel">Información de Educacion</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <label for="input">Nombre</label>
+                        <input type="text" id="input-nombre-educacion" placeholder="Institucion">
+                    </p>
+                    <p>
+                        <label for="input">Título</label>
+                        <input type="text" id="input-nombre-titulo" placeholder="Titulo ">
+                    </p>
+                    <p>
+                        <label for="date">Fecha de Realización</label>
+                        <input type="date" id="date-fecha-educacion">
+                    </p>
+
+                    <p>
+                        <label for="file">Subir logo de Institución</label>
+                        <input type="file" id="file-logo-educacion">
+                    </p>
+                    <p>
+                        <label for="textarea">Descripción</label>
+                        <textarea id="textarea-descripcion-educacion" rows="3" style="height: 110px;"></textarea>
+                    </p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Canselar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin modal para  nueva educacion  -->
+
+
 
     <!-- Modal skill-->
     <div class="modal fade" id="modalskill" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -899,6 +1011,54 @@
         </div>
     </div>
     <!-- fin modal para skill  -->
+    <!-- Modal nuevo skill-->
+    <div class="modal fade" id="modalNuevoSkil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content contet-modal-skill">
+                <div class="modal-header">
+                    <h1 class="modal-title-skill" id="exampleModalLabel">Editar Skill</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <label for="input"> Tipo de Skill</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Dura</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Blanda</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Idioma</label>
+                    </div>
+
+                    </p>
+                    <p>
+                        <label for="input">Nombre Skill</label>
+                        <input type="text" id="input-nombre-skill" placeholder="Skill">
+                    </p>
+                    <p>
+                        <label for="input">progreso %</label>
+                        <input type="text" id="input-progreso-skill" placeholder="% de Realizacion">
+                    </p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Canselar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin modal para nuevo skill  -->
 
     <!-- Modal proyecto-->
     <div class="modal fade" id="modalProyecto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -941,13 +1101,56 @@
             </div>
         </div>
     </div>
-
     <!-- fin modal para  proyecto  -->
+    <!-- Modal nuevo proyecto-->
+    <div class="modal fade" id="modalNuevoProyecto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content contet-modal-proyecto">
+                <div class="modal-header">
+                    <h1 class="modal-title-proyecto" id="exampleModalLabel">Nuevo Proyecto</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <label for="file">Subir Foto de Proyecto</label>
+                        <input type="file" id="file-foto-proyecto">
+                    </p>
+                    <p>
+                        <label for="input">Nombre de Proyecto</label>
+                        <input type="text" id="input-nombre-proyecto" placeholder="Proyecto">
+                    </p>
+                    <p>
+                        <label for="date">Fecha de Relizacion</label>
+                        <input type="date" id="date-fecha-proyecto">
+                    </p>
+
+                    <p>
+                        <label for="textarea">Descricion de Proyecto</label>
+                        <textarea id="textarea-descripcion-proyecto" rows="3" style="height: 110px;"></textarea>
+                    </p>
+                    <p>
+                        <label for="url">URL del Proyecto</label>
+                        <input type="url" id="url-proyecto" placeholder="http://">
+                    </p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Canselar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin modal para  nuevo proyecto  -->
+
+
 
 
     <!-- js para drag drop -->
     <script>
-        const dragAreaEx = document.querySelector(".box-container-experiencias, .box-container-educacion");
+        const dragAreaEx = document.querySelector(".box-container-experiencias");
         new Sortable(dragAreaEx, {
             animation: 350
         });
