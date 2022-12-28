@@ -192,6 +192,8 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
+
+    z-index: 100;  /*-------------*/
 }
 
 .inicio .contenido-banner .redes a:hover{

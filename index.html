@@ -78,11 +78,59 @@
             <h1>Hernan Flores</h1>
             <h2>Developer</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="""><i class="fa-solid fa-plus"></i></a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <div class="contenedor-btn-edit-borrar-red">
+                        <button type="button" class="btn btn-primary btn-editar-red" data-bs-toggle="modal"
+                            data-bs-target="#modalEditarRed">
+                            <i class="fa-solid fa-pencil"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-borrar-red" data-bs-toggle="modal">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </div>
+
+
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                    <div class="contenedor-btn-edit-borrar-red">
+                        <button type="button" class="btn btn-primary btn-editar-red" data-bs-toggle="modal"
+                            data-bs-target="#modalEditarRed">
+                            <i class="fa-solid fa-pencil"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-borrar-red" data-bs-toggle="modal">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </div>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="contenedor-btn-edit-borrar-red">
+                        <button type="button" class="btn btn-primary btn-editar-red" data-bs-toggle="modal"
+                            data-bs-target="#modalEditarRed">
+                            <i class="fa-solid fa-pencil"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-borrar-red" data-bs-toggle="modal">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </div>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <div class="contenedor-btn-edit-borrar-red">
+                        <button type="button" class="btn btn-primary btn-editar-red" data-bs-toggle="modal"
+                            data-bs-target="#modalEditarRed">
+                            <i class="fa-solid fa-pencil"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-borrar-red" data-bs-toggle="modal">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </div>
+                </a>
+                <a data-bs-toggle="modal" data-bs-target="#modalNuevaRed"><i class="fa-solid fa-plus"></i></a>
+
+
             </div>
             <button type="button" class="btn btn-primary btn-editar-portada" data-bs-toggle="modal"
                 data-bs-target="#modalPortada">
@@ -773,6 +821,63 @@
         </div>
     </div>
     <!-- fin modal portada  -->
+    <!-- Modal nueva red social -->
+    <div class="modal fade" id="modalNuevaRed" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-efecto">
+            <div class="modal-content contet-modal-nuevared">
+                <div class="modal-header">
+                    <h1 class="modal-title-nuevared" id="exampleModalLabel">Nueva Red Social</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <label for="url">URL Icono </label>
+                        <input type="url" id="imput-url-icono" placeholder="fontawesome">
+                    </p>
+                    <p>
+                        <label for="url">URL Red Social</label>
+                        <input type="url" id="imput-url-redsocial" placeholder="https://">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Canselar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin Modal nueva red social -->
+    <!-- Modal editar red social -->
+    <div class="modal fade" id="modalEditarRed" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-efecto">
+            <div class="modal-content contet-modal-editarRed">
+                <div class="modal-header">
+                    <h1 class="modal-title-editarred" id="exampleModalLabel">Editar Red Social</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <label for="url">URL Icono </label>
+                        <input type="url" id="imput-url-icono" placeholder="fontawesome">
+                    </p>
+                    <p>
+                        <label for="url">URL Red Social</label>
+                        <input type="url" id="imput-url-redsocial" placeholder="https://">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Canselar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin Modal editar red social -->
+
+
+
 
     <!-- Modal sobre mi-->
     <div class="modal fade" id="modalSobreMi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -1103,7 +1208,8 @@
     </div>
     <!-- fin modal para  proyecto  -->
     <!-- Modal nuevo proyecto-->
-    <div class="modal fade" id="modalNuevoProyecto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalNuevoProyecto" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content contet-modal-proyecto">
                 <div class="modal-header">
