@@ -523,7 +523,7 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
  }
  /* skill */
  .habilidades .contenido-habilidades .box-container-skills .skills{
-    margin-left: 3rem;
+    /* left: auto; */
     margin-bottom: 5rem;
  }
  .habilidades .contenido-habilidades .box-container-skills .skills .skill-box{
@@ -534,6 +534,7 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
     justify-content: center;
     align-items: center;
     margin-bottom: 5rem;
+    left: -90px;
 
 }
 .habilidades .contenido-habilidades .box-container-skills .skills .skill-box h4{
