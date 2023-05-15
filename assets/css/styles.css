@@ -130,7 +130,7 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
 /*-------------------seccion portada / banner -------------------*/
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.1), rgba(30,35,38,1)),
-    url(/assets/img/portada.jpg);
+    url(/assets/img/fondo-portada.jpg);
     background-size: cover;
     height: 100vh;
     color: rgb(243, 231, 231);
@@ -269,7 +269,8 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
     margin-top: 40px;
     margin-left: 8rem;
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
+    text-transform: none;
 
 }
 
@@ -320,8 +321,8 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
    height: 50rem;
    margin:5rem 1rem;
    padding-left: 9rem;
-   border-left: .9rem solid rgb(33, 15, 226);
-   border-right: .9rem solid rgb(33, 15, 226);
+   border-left: .9rem solid #210fe2;
+   border-right: .9rem solid #210fe2;
    position: relative;
 
    /* box-shadow: 8px 0px 15px  #2904cc; */
@@ -484,7 +485,7 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
    margin: auto;
    text-align: center;
    border-radius: 40px;
-   background: rgba(74, 70, 70, 0.447);  /* transparente blureado */
+   background: #4a464672;  /* transparente blureado */
    backdrop-filter: blur(10px);
    box-shadow: 20px 0 33px rgba(127, 119, 119, 0.5);
 
@@ -575,7 +576,8 @@ header .logo-argProg .botnes-login{   /* colocar boton uno sobre otro*/
    
    padding: 20px;
    width: 90%;
-   height: 80%;
+   height: 85%;
+   bottom: 20px;
    margin: auto;
    text-align: center;
    border-radius: 40px;
